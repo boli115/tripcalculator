@@ -98,9 +98,9 @@ namespace TripCalculator
 
         private void PreFillData()
         {
-            _listTripExpense.Add(new TripCalculator.TripExpense { Name = "Louis", Meals = 5.75f, Hotels = 35f, TexiRides = 12.79f, PlaneTickets = 0f });
-            _listTripExpense.Add(new TripCalculator.TripExpense { Name = "Carter", Meals = 12.0f, Hotels = 15.0f, TexiRides = 23.23f, PlaneTickets = 0f });
-            _listTripExpense.Add(new TripCalculator.TripExpense { Name = "David", Meals = 10.0f, Hotels = 20.0f, TexiRides = 38.41f, PlaneTickets = 45.0f });
+            _listTripExpense.Add(new TripCalculator.TripExpense { Name = "Louis", Meals = 5.75f, Hotels = 35f, TaxiRides = 12.79f, PlaneTickets = 0f });
+            _listTripExpense.Add(new TripCalculator.TripExpense { Name = "Carter", Meals = 12.0f, Hotels = 15.0f, TaxiRides = 23.23f, PlaneTickets = 0f });
+            _listTripExpense.Add(new TripCalculator.TripExpense { Name = "David", Meals = 10.0f, Hotels = 20.0f, TaxiRides = 38.41f, PlaneTickets = 45.0f });
 
 
             var bindingList = new BindingList<TripExpense>(_listTripExpense);

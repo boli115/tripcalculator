@@ -37,7 +37,7 @@
             this.ColumnName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnMeals = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnHotels = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnTexiRides = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnTaxiRides = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnPlaneTickets = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnTotal = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -112,7 +112,7 @@
             this.ColumnName,
             this.ColumnMeals,
             this.ColumnHotels,
-            this.ColumnTexiRides,
+            this.ColumnTaxiRides,
             this.ColumnPlaneTickets,
             this.ColumnTotal});
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -141,11 +141,11 @@
             this.ColumnHotels.Name = "ColumnHotels";
             this.ColumnHotels.Width = 70;
             // 
-            // ColumnTexiRides
+            // ColumnTaxiRides
             // 
-            this.ColumnTexiRides.HeaderText = "Texi Rides";
-            this.ColumnTexiRides.Name = "ColumnTexiRides";
-            this.ColumnTexiRides.Width = 80;
+            this.ColumnTaxiRides.HeaderText = "Taxi Rides";
+            this.ColumnTaxiRides.Name = "ColumnTaxiRides";
+            this.ColumnTaxiRides.Width = 80;
             // 
             // ColumnPlaneTickets
             // 
@@ -277,7 +277,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnName;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnMeals;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnHotels;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnTexiRides;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnTaxiRides;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnPlaneTickets;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnTotal;
         private System.Windows.Forms.Panel panel1;

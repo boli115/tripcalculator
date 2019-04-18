@@ -4,11 +4,11 @@ Domain: Trip Calculator; Interface: Native GUI; Platform: .NET; Backend: C#
 
 This application is coded in C# with pure .NET library in Visual Studio 2015, no special packages 
 needed. Just open the .csproj file and Run. The results are displayed whenever changes to the data 
-fields occur, no "Calculate" button to click. The frame work of handling more people is there, but 
+fields occur, no "Calculate" button to click. The framework of handling more people is there, but 
 it has not been coded or tested. Total hours used is around 5 hours.
 
 This application demonstrated the following techniques:
-1.	Simple data structure using “struct”
+1.	Simple data structure using ?struct?
 2.	Data structure using a class with build in functions
 3.	Reading and writing XML files to save user data
 4.	Using Threading to handle lengthy processes to ensure the best user experience
